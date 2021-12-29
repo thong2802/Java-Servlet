@@ -1,6 +1,8 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="unnamed">
+  <artifact type="exploded-ear" name="unnamed">
     <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
-    <root id="root" />
+    <root id="root">
+      <element id="extracted-dir" path="$PROJECT_DIR$/target/JavaSevlet-1.0-SNAPSHOT.war" path-in-jar="/" />
+    </root>
   </artifact>
 </component>
