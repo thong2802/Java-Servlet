@@ -2,9 +2,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home</title>
+    <title>Admin</title>
 </head>
 <body>
-<h1>Home page</h1>
+<h1>Hello Admin</h1>
 </body>
 </html>
