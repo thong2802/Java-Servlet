@@ -1,2 +1,3 @@
 com/servlet/controller/admin/AdminController.class
+com/servlet/model/UserModel.class
 com/servlet/controller/web/HomeController.class
