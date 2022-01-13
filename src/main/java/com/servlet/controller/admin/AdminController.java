@@ -1,5 +1,6 @@
 package com.servlet.controller.admin;
 
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -13,5 +14,7 @@ public class AdminController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
       //  super.doGet(req, resp);
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("/views/admin/home.jsp");
+        requestDispatcher.forward(req, resp);
     }
 }
